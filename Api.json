@@ -1,0 +1,7 @@
+{
+  "updateCategory": "http://localhost:4000/category/update-category",
+  "get-all-product": "http://localhost:4000/product/get-all",
+  "get-single-product": "http://localhost:4000/product/:id",
+  "getAllProductsByCategory": "http://localhost:4000/product/getAllProductsByCategory",
+  "get-all-category": "http://localhost:4000/category/get-category"
+}

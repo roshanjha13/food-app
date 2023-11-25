@@ -19,3 +19,8 @@ exports.updateCategory = async (req, res) => {
     checkTopic,
   });
 };
+
+exports.getCategory = async (req, res) => {
+  const cat = await categoryModel.find();
+  res.status(200).json(cat);
+};
